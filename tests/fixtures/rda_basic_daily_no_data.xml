@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  HTTP 200 이면서 결과가 비어 있는 응답.
+
+  이 저장소 설계의 출발점이다. 전송 계층은 성공이고 의미 계층은 데이터 없음이라
+  둘을 같게 처리하면 수집 구멍이 조용히 남는다.
+-->
+<response>
+  <header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE</resultMsg></header>
+  <body>
+    <items></items>
+    <totalCount>0</totalCount>
+  </body>
+</response>

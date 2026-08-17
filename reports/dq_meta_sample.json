@@ -1,0 +1,29 @@
+{
+  "dataset_id": "KMA_CROP_DETAIL",
+  "run_id": "20251224_162023",
+  "generated_at": "2025-12-24T17:47:01",
+  "input_csv": "Fin_KMA_CropArea_Weather_20251219\\bronze\\csv\\crop_detail_all.csv",
+  "output_dir": "output_silver\\KMA_CROP_DETAIL",
+  "row_count_in": 3103904,
+  "row_count_out": 2126515,
+  "key_null_rows": 0,
+  "key_dup_rows": 977389,
+  "row_dup_rows": 977389,
+  "key_conflict_rows": 0,
+  "date_parse_failed": 0,
+  "outlier_counts": {
+    "dayAvgTa": 0,
+    "dayMaxTa": 0,
+    "dayMinTa": 0,
+    "dayAvgRhm": 0,
+    "dayMinRhm": 0,
+    "daySumRn": 0,
+    "dayAvgWs": 0
+  },
+  "codebook_unmatched_rows": 0,
+  "name_qc_mismatch_counts": {
+    "areaName_\ucf54\ub4dc\ubd81_\ubd88\uc77c\uce58": 0,
+    "paCropName_\ucf54\ub4dc\ubd81_\ubd88\uc77c\uce58": 0,
+    "paCropSpeName_\ucf54\ub4dc\ubd81_\ubd88\uc77c\uce58": 0
+  }
+}

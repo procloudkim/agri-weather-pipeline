@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE</resultMsg></header>
+  <body>
+    <items>
+      <item>
+        <stn_Cd>712851A001</stn_Cd>
+        <stn_Name>합성관측소</stn_Name>
+        <date>2025-12-01</date>
+        <temp>3.4</temp>
+        <max_Temp>8.1</max_Temp>
+        <min_Temp>-1.2</min_Temp>
+        <hum>62</hum>
+        <wind>1.8</wind>
+        <max_Wind>4.2</max_Wind>
+        <rain>0.0</rain>
+        <gr_Temp>2.0</gr_Temp>
+        <soil_Temp>4.1</soil_Temp>
+        <soil_Wt>21.0</soil_Wt>
+      </item>
+    </items>
+  </body>
+</response>

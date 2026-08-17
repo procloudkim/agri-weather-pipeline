@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  실제로 겪은 실패를 재현하는 fixture.
+
+  특보 관련 필드가 명세에는 `wmCount`, `wmCd` 인데 실제 응답에서는 다른 이름으로
+  왔다. 파서는 예외 없이 정상 종료하고, 해당 컬럼만 조용히 빈 값이 된다.
+  아래는 그 상황을 그대로 모사한 것이다.
+-->
+<response>
+  <header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE</resultMsg></header>
+  <body>
+    <items>
+      <item>
+        <ymd>2025-12-03</ymd>
+        <areaId>4123</areaId>
+        <areaName>합성지역A</areaName>
+        <paCropName>합성작물</paCropName>
+        <paCropSpeId>0007</paCropSpeId>
+        <paCropSpeName>합성품종</paCropSpeName>
+        <dayAvgTa>1.1</dayAvgTa>
+        <dayMaxTa>4.0</dayMaxTa>
+        <dayMinTa>-2.0</dayMinTa>
+        <dayAvgRhm>65</dayAvgRhm>
+        <dayMinRhm>48</dayMinRhm>
+        <daySumRn>0.0</daySumRn>
+        <dayAvgWs>1.5</dayAvgWs>
+        <daySumSs>5.0</daySumSs>
+        <warningCount>2</warningCount>
+        <warningCode>W07</warningCode>
+      </item>
+    </items>
+  </body>
+</response>

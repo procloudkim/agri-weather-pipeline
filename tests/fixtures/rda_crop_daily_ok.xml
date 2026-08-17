@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE</resultMsg></header>
+  <body>
+    <items>
+      <item>
+        <obsr_Spot_Code>S001</obsr_Spot_Code>
+        <obsr_Datetm>2025-12-01</obsr_Datetm>
+        <temp>3.4</temp>
+        <arvlty>12.0</arvlty>
+        <frfr_Tp>0.5</frfr_Tp>
+        <frfr_Tp_Top>1.0</frfr_Tp_Top>
+      </item>
+      <item>
+        <obsr_Spot_Code>S001</obsr_Spot_Code>
+        <obsr_Datetm>2025-12-02</obsr_Datetm>
+        <temp>2.2</temp>
+      </item>
+    </items>
+  </body>
+</response>

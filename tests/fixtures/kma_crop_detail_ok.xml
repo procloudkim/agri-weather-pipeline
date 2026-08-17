@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <header><resultCode>00</resultCode><resultMsg>NORMAL SERVICE</resultMsg></header>
+  <body>
+    <items>
+      <item>
+        <ymd>2025-12-01</ymd>
+        <areaId>4123</areaId>
+        <areaName>합성지역A</areaName>
+        <paCropName>합성작물</paCropName>
+        <paCropSpeId>0007</paCropSpeId>
+        <paCropSpeName>합성품종</paCropSpeName>
+        <dayAvgTa>3.4</dayAvgTa>
+        <dayMaxTa>8.1</dayMaxTa>
+        <dayMinTa>-1.2</dayMinTa>
+        <dayAvgRhm>62</dayAvgRhm>
+        <dayMinRhm>41</dayMinRhm>
+        <daySumRn>0.0</daySumRn>
+        <dayAvgWs>1.8</dayAvgWs>
+        <daySumSs>6.2</daySumSs>
+        <wmCount>1</wmCount>
+        <wmCd>W02</wmCd>
+      </item>
+      <item>
+        <ymd>2025-12-02</ymd>
+        <areaId>4123</areaId>
+        <areaName>합성지역A</areaName>
+        <paCropName>합성작물</paCropName>
+        <paCropSpeId>0007</paCropSpeId>
+        <paCropSpeName>합성품종</paCropSpeName>
+        <dayAvgTa>-</dayAvgTa>
+        <dayMaxTa>5.0</dayMaxTa>
+        <dayMinTa>-3.0</dayMinTa>
+        <dayAvgRhm>70</dayAvgRhm>
+        <dayMinRhm>55</dayMinRhm>
+        <daySumRn>2.5</daySumRn>
+        <dayAvgWs>2.1</dayAvgWs>
+        <daySumSs>0.0</daySumSs>
+        <wmCount>0</wmCount>
+        <wmCd></wmCd>
+      </item>
+    </items>
+  </body>
+</response>

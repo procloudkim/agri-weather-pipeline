@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 공개 트리 검사
+        # 시크릿, 계정 식별자, 팀원 실명, 종료된 도메인이 남아 있는지 확인한다.
+        # 테스트보다 먼저 돌린다. 유출은 실패보다 되돌리기 어렵다.
+        run: python scripts/check_public_tree.py
+
+      - name: 테스트
+        # 네트워크에 접근하지 않는다. 합성 fixture 와 소형 CSV 만 사용한다.
+        run: pytest -q
